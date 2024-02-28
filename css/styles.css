@@ -1,0 +1,58 @@
+/* Colors */
+/* White theme color */
+/* Backgrounds */
+/* MediaQuery */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: DM-Sans;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none; }
+  
+  /* FONT FAMILY */
+  h1,
+  h2 {
+    font-family: "Gugi", cursive; }
+  
+  li,
+  a,
+  p {
+    font-family: "Jaldi", sans-serif; }
+  
+    .navbar {
+        display: flex;
+        justify-content: center; }
+        .navbar .menu ul {
+          display: flex;
+          justify-content: center; }
+          .navbar .menu ul li {
+            display: flex;
+            align-items: center;
+            padding: 10px; }
+            .navbar .menu ul li a {
+              height: 47px;
+              font-size: 20px;
+              color: #dbdddf;
+              font-weight: bold; }
+              .navbar .menu ul li a:hover {
+                color: rgba(217, 172, 58, 0.808);
+                border-bottom: 2px solid rgba(217, 172, 58, 0.808); }
+        .navbar .iconnav ul {
+          display: flex;
+          justify-content: center;
+          border-left: 1px solid #dbdddf; }
+          .navbar .iconnav ul li {
+            height: 55px;
+            display: flex;
+            align-items: flex-end;
+            padding: 10px; }
+            .navbar .iconnav ul li a {
+              text-align: center; }
+              .navbar .iconnav ul li a img {
+                width: 24px;
+                height: auto;
+                filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(353deg) brightness(102%) contrast(105%); }
+                .navbar .iconnav ul li a img:hover {
+                  transform: scale(1.08); }
+      
