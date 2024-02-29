@@ -110,7 +110,7 @@ footer .textfooter div {
 footer .textfooter h2 {
   padding-bottom: 15px;
   font-size: 18px;
-  color:rgb(78, 224, 109, 0.808);
+  color: rgb(78, 224, 109, 0.808);
 }
 
 footer .textfooter a {
@@ -158,4 +158,26 @@ span {
   text-align: center;
   color: #dbdddf;
   padding-bottom: 10px;
+}
+
+/* MAIN */
+
+main {
+  background-color: rgb(122, 75, 21);
+}
+
+main {
+  display: flex;
+}
+
+.contentproyecto {
+  flex: 1;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.contentdoc {
+  flex: 1;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
