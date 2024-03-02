@@ -30,7 +30,7 @@ header {
 }
 
 .navbar .logo img {
-  height: 4rem;
+  height: 3rem;
 }
 
 .navbar .logo img:hover {
@@ -62,7 +62,7 @@ header {
 
 .navbar .menu ul li a {
   height: 47px;
-  font-size: 24px;
+  font-size: 20px;
   color: #dbdddf;
   font-weight: bold;
 }
@@ -98,12 +98,12 @@ footer .textfooter div {
 
 footer .textfooter h2 {
   padding-bottom: 15px;
-  font-size: 24px;
+  font-size: 20px;
   color: rgb(205, 65, 64);
 }
 
 footer .textfooter a {
-  font-size: 20px;
+  font-size: 16px;
   color: #aeb0b1;
 }
 
@@ -121,7 +121,7 @@ footer .textfooter .siguenos ul li {
 }
 
 footer .textfooter .siguenos ul li img {
-  width: 2rem;
+  width: 25px;
 }
 
 footer .textfooter .siguenos ul li img:hover {
@@ -129,7 +129,7 @@ footer .textfooter .siguenos ul li img:hover {
 }
 
 footer .textfooter .mfooter img {
-  width: 5rem;
+  width: 4rem;
 }
 
 footer .textfooter .mfooter img:hover {
@@ -137,7 +137,7 @@ footer .textfooter .mfooter img:hover {
 }
 
 footer .textfooter .contacto li {
-  font-size: 20px;
+  font-size: 16px;
   color: #aeb0b1;
 }
 
