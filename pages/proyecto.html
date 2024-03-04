@@ -2,24 +2,22 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monicool</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Jaldi&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../img/favicon_monicool.png" type="image/x-icon">
-
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Jaldi&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="../img/favicon_monicool.png" type="image/x-icon" />
 </head>
 
 <body>
     <header>
-
         <nav class="navbar">
-
-            <div class="logo"><a href="../index.html"><img src="../img/Monicool_logo.png"></a></div>
+            <div class="logo">
+                <a href="../index.html"><img src="../img/Monicool_logo.png" /></a>
+            </div>
 
             <div class="menu">
                 <ul>
@@ -29,35 +27,176 @@
                     <li><a href="nosotros.html">Nosotros</a></li>
                 </ul>
             </div>
-
         </nav>
-
     </header>
 
     <main>
+        <div class="Doc_titulo">
+            <h1>
+                Desarrollo de una app web de monitoreo musical e <br />
+                información de eventos culturales
+            </h1>
+        </div>
 
+        <div class="proyectodoc">
+            <h2>Introducción</h2>
+            <p>
+                Esta aplicación está diseñada para el monitoreo musical, ofreciendo
+                una plataforma que presenta datos sobre canciones y artistas en tiempo
+                real. Proporcionará información detallada sobre las reproducciones,
+                estadísticas y otros aspectos relevantes relacionados con la música.
+                Además, la aplicación ofrecerá información sobre eventos populares y
+                culturales que tendrán lugar en la ciudad.
+            </p>
+
+            <h2>Formulación del problema</h2>
+            <p>
+                En la actualidad, la creciente diversidad y accesibilidad a eventos
+                culturales y musicales plantean la necesidad de una plataforma que
+                centralice la información sobre conciertos, festivales y actividades
+                culturales en áreas locales. La dispersión de estos eventos en
+                diversas plataformas o redes dificulta que los usuarios accedan a la
+                información de manera eficiente, limitando su capacidad para descubrir
+                eventos que se ajusten a sus preferencias. <br />
+                <br />
+                Ademas Hay una falta de reconocimiento de artistas emergentes y
+                compositores que la mayoria de veces no se les conoce por sus obras.
+                La ausencia de visibilidad de estos talentos subestimados representa
+                una oportunidad perdida para la comunidad musical en general. Por lo
+                tanto, es esencial abordar esta brecha y destacar la importancia de
+                los compositores como parte fundamental de la industria musical.
+            </p>
+
+            <div class="preguntap">
+                <h2>
+                    ¿Como desarrollar una app web que muestre informacion veridica y
+                    actualizada sobre el monitoreo musical y eventos culturales que se
+                    llevan a cabo en la ciudad, solucionando la falta de reconocimiento
+                    hacia artistas emergentes y compositores, asi mejorando la
+                    experiencia de usuario y promoviendo musica y cultura.
+                </h2>
+            </div>
+
+            <div class="proyectodoc2">
+                <div class="proypleft">
+                    <h2>Objetivo General</h2>
+                    <p>Diseñar y desarrollar una aplicación web para el público que proporcione información en tiempo
+                        real sobre canciones y artistas en plataformas digitales y emisoras de radio, ofreciendo además
+                        un calendario actualizado de eventos culturales en la ciudad de Bogotá.
+                    </p>
+
+                    <h3>Objetivos especificos:</h3>
+                    <ul>
+                        <li>Crear un plan de desarrollo y cronograma de actividades para tener bien definidas las
+                            estapas del
+                            proyecto.</li>
+
+                        <li>Investigar sobre el manejo de las APIS que se usaran para ayudar en la recoleccion de datos.
+                        </li>
+
+                        <li>Seleccionar las herramientas y lenguajes de programacion que se usaran para el desarrollo
+                            teniendo en cuenta las habilidades del equipo de proyecto.</li>
+
+                        <li>Definir la estructura de la aplicacion web, incluyendo la navegacion entre paginas, la
+                            organizacion de la informacion y jerarquia del contenido</li>
+                    </ul>
+
+                    <h2>Justificación</h2>
+                    <p>Con los datos recolectados nos hemos dado cuenta de que se necesita centralizar la información de
+                        monitoreo musical de plataformas digitales y radios. Esto es con el fin de ser exactos en la
+                        cantidad de datos manejados, además de proporcionar fiabilidad al usuario. Siguiendo la línea de
+                        centralizar información, encontramos que también se aplica a los eventos que se hacen en la
+                        ciudad. Muchas veces, las personas quieren buscar dónde y cuándo va a estar su artista favorito
+                        y terminan buscando en varias partes sin tener unos filtros que hagan su búsqueda más agradable
+                        y sencilla. Por ello, queremos que toda esta cantidad de información se ubique en un solo lugar
+                        y que el usuario use las herramientas dispuestas para buscar lo que más le convenga.</p>
+
+                </div>
+
+                <div class="proyprigth">
+                    <h2>Alcance</h2>
+                    <p>Alcanzar la completa implementación de la base de datos junto con sus respectivos procedimientos,
+                        establecer las bases fundamentales para la plataforma de monitoreo musical y eventos culturales,
+                        además de completar la documentación detallada y exhaustiva del proyecto.</p>
+
+                    <h2>Requerimientos funcionales</h2>
+                    <ul>
+                        <li>Los usuario podran buscar toda la informacion requerida sobre artistas, canciones o compositores, ya que
+                            los artistas y canciones tendran su propio glosario de informacion. Se podrá encontrar lo
+                            que sea que este relacionado a ello.</li>
+
+                        <li>Los usuario tendran a su disposicion toda la informacion sobre los eventos cercanos pudiendo
+                            alterar el filtro de busqueda como ellos gusten, se les mostrara en el apartado de eventos
+                            las fechas, el tipo de evento, el lugar y link al sitio oficial de este.</li>
+
+                        <li>Los usuario registrados en la paltaformas tendran distintos tipos de interacciones en el
+                            sitio, ya sea agregar eventos a sus favoritos, canciones y artistas, asi como vincular su
+                            cuenta de Monicool con otras relacionada a la musica como spotify para que el sistema este
+                            al tanto de los gustos del usuario.</li>
+
+                        <li>El usuario puede ver cantidad de datos de monitoreo usando los filtro porporcionados, podrá
+                            saber el artista mas escuchado en el dia, o el mes, tambien ver las canciones mas
+                            escuchadas.</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <h2>Antecedentes</h2>
+            <p>En el ámbito de la industria musical, el monitoreo de la difusión de canciones en radio y
+                televisión es esencial para conocer su impacto y popularidad entre el público. Empresas como
+                Monitor Latino y Decibeles Colombia se han destacado en la provisión de información relevante
+                sobre el desempeño de la música en estos medios en América Latina. Además, ACR Cloud, líder
+                mundial en procesamiento de huellas digitales, brinda tecnología especializada para el monitoreo
+                de la música en radio y televisión a nivel global, permitiendo la supervisión de transmisiones
+                en tiempo real en todo el mundo.
+
+                La importancia del monitoreo musical se extiende más allá de las emisoras tradicionales,
+                abarcando también las plataformas digitales de streaming y descarga de música. Empresas como
+                Spotify, Apple Music y Deezer, entre otras, juegan un papel crucial en la difusión y consumo de
+                música en línea. Sin embargo, la necesidad de monitorear y analizar el rendimiento de la música
+                en estas plataformas digitales presenta desafíos únicos debido a la gran cantidad de datos y la
+                diversidad de fuentes de reproducción.
+
+                A nivel mundial, empresas como Nielsen Music y MediaBase han establecido estándares en el
+                monitoreo y análisis de la industria musical, brindando datos precisos y herramientas analíticas
+                para comprender mejor el comportamiento de los consumidores y las tendencias del mercado.
+
+                En el contexto nacional, Decibeles Colombia se destaca como una empresa líder en la provisión de
+                datos de monitoreo en radios, proporcionando información valiosa sobre la difusión de música en
+                emisoras de todo el país.</p>
+
+            <h2>Metodología de investigación y tipo de investigación</h2>
+            <p></p>
+
+        </div>
 
     </main>
 
     <footer>
         <div class="textfooter">
-
             <div class="siguenos">
                 <h2>Síguenos</h2>
                 <nav>
                     <ul>
-                        <li><a target="_blank" href="https://www.facebook.com"><img src="../img/facebook.png" alt=""></a>
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com"><img src="../img/facebook.png"
+                                    alt="" /></a>
                         </li>
-                        <li><a target="_blank" href="https://www.youtube.com"><img src="../img/youtube.png" alt=""></a>
+                        <li>
+                            <a target="_blank" href="https://www.youtube.com"><img src="../img/youtube.png"
+                                    alt="" /></a>
                         </li>
-                        <li><a target="_blank" href="https://www.instagram.com"><img src="../img/instagram.png" alt=""></a>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com"><img src="../img/instagram.png"
+                                    alt="" /></a>
                         </li>
                     </ul>
                 </nav>
             </div>
 
             <div class="mfooter">
-                <a href="../index.html"><img src="../img/logo_icon_monicool.png" alt=""></a>
+                <a href="../index.html"><img src="../img/logo_icon_monicool.png" alt="" /></a>
                 <nav>
                     <ul>
                         <li><a href="../index.html">Inicio</a></li>
@@ -73,14 +212,11 @@
                     <li>+57 99999999999</li>
                 </ul>
             </div>
-
         </div>
 
-        <span> © Mauricio_P</span>
+        <span> © Nosoy_Diseñador</span>
 
     </footer>
-
-
 </body>
 
 </html>
