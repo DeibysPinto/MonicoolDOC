@@ -288,7 +288,7 @@ span {
 }
 
 .preguntap h2 {
-  color: #517eab;
+  color: #dc7272;
   border-bottom: rgb(205, 65, 64) solid;
   border-top: rgb(205, 65, 64) solid;
 }
@@ -309,13 +309,21 @@ span {
 .nosotrosimg {
   background-color:#061C25;
   text-align: center;
+  display: flex;
+  justify-content:space-evenly;
+  padding: 20px;
 }
 
 .nosotrosimg img {
-  width: 300px ;
-  height: auto; 
-  padding: 40px;
+  width: auto ;
+  height: 400px; 
+  padding: 10px;
 }
+
+.nosotrosimg p {
+  color: #dbdddf;
+}
+
 
 
 
