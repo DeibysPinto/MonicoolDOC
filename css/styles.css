@@ -22,7 +22,8 @@ h1 {
   font-size: 20px;
 }
 
-h2,h3 {
+h2,
+h3 {
   font-size: 18px;
 }
 
@@ -163,7 +164,7 @@ span {
 /* MAIN INDEX */
 
 .mainindex {
-  background-color: rgb(6, 28, 37);
+  background-color: rgb(10, 45, 59);
   display: flex;
   height: 80vh;
 }
@@ -280,7 +281,7 @@ span {
 }
 
 .proyectodoc li {
-  list-style:disc;
+  list-style: disc;
   list-style-position: inside;
   padding-bottom: 2rem;
   color: #FFFFFF;
@@ -304,19 +305,23 @@ span {
   width: 50%;
 }
 
+.separadorp {
+  background-color: rgb(10, 45, 59);
+}
+
 /* NOSOTROS */
 
 .nosotrosimg {
-  background-color:#061C25;
+  background-color: #061C25;
   text-align: center;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   padding: 20px;
 }
 
 .nosotrosimg img {
-  width: auto ;
-  height: 400px; 
+  width: auto;
+  height: 400px;
   padding: 10px;
 }
 
@@ -324,7 +329,6 @@ span {
   color: #dbdddf;
 }
 
-
-
+/* DOCUMENTACION*/
 
 
