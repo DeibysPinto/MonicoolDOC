@@ -453,7 +453,7 @@ span {
 }
 
 .mainS h2 {
-  font-size: 25px;
+  font-size: 20px;
   color: #348B83;
   padding: 20px;
 }
@@ -475,7 +475,7 @@ span {
 
 .gridS img {
   padding: 10px;
-  width: 100%;
+  width:75%;
 }
 
 .cont2S {
@@ -488,7 +488,7 @@ span {
 }
 
 .cont2S img {
-  height: 1000px;
+  width: 50%;
   padding-bottom: 20px;
 }
 
@@ -501,7 +501,7 @@ span {
 }
 
 .ContArchivos h2 {
-  font-size: 25px;
+  font-size: 20px;
   color: #000000;
   padding: 10px;
 }
@@ -521,14 +521,14 @@ span {
 }
 
 .documento img {
-  width: 40px; 
+  width: 30px; 
   height: auto;
   vertical-align: middle;
 }
 
 .documento span {
   margin-left: 5px; 
-  font-size: 18px; 
+  font-size: 15px; 
   vertical-align: middle; 
   color: #ffffff;
 }
