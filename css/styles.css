@@ -323,13 +323,16 @@ span {
 
 /* NOSOTROS */
 
+
 .nosotrosimg {
   background-image: url("../img/Grafitty_bg.png");
   background-size: cover;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   padding: 20px;
+  height: 700px;
 }
 
 .nosotrosimg img {
@@ -439,3 +442,69 @@ span {
   opacity: 0.5;
   transition: 0.2s;
 }
+
+.mainS {
+  background-color: #1a1919;
+}
+
+.mainS h2 {
+  font-size: 25px;
+  color: #348B83;
+  padding: 20px;
+}
+
+.contS {
+  background-color: #1a1919;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: solid white 1px;
+}
+
+.gridS{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gridS img {
+  padding: 10px;
+}
+
+.cont2S {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+ background-image: url(../img/fondo_poster.png);
+ background-size: cover;
+}
+
+.cont2S img {
+  height: 1000px;
+  padding-bottom: 20px;
+}
+
+
+.ContArchivos {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContArchivos h2 {
+  font-size: 25px;
+  color: #000000;
+  padding: 20px;
+}
+
+/* SEMESTRE 1 */
+
+
+
+
+
+
+/* SEMESTRE 2 */
+/* SEMESTRE 3 */
