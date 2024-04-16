@@ -2,6 +2,7 @@
 /* White theme color */
 /* Backgrounds */
 /* MediaQuery */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@
   text-decoration: none;
 }
 
-/* FONT FAMILY */
+/* FONT FAMILY ///////////////////////////////////////////////////*/
 h1,
 h2,
 h3 {
@@ -39,7 +40,7 @@ li {
   font-size: 18px;
 }
 
-/* HEADER */
+/* HEADER ///////////////////////////////////////////////////*/
 
 header {
   background-color: rgb(26, 25, 25);
@@ -88,7 +89,7 @@ header {
   border-bottom: 2px solid rgb(205, 65, 64);
 }
 
-/* FOOTER */
+/* FOOTER ///////////////////////////////////////////////////*/
 
 footer {
   width: 100%;
@@ -161,7 +162,7 @@ span {
   padding-bottom: 10px;
 }
 
-/* MAIN INDEX */
+/* MAIN INDEX ///////////////////////////////////////////////////*/
 
 .mainindex {
   background-color: #061C25;
@@ -231,7 +232,7 @@ span {
   opacity: 1;
 }
 
-/* MAIN PORYECTO */
+/* MAIN PORYECTO ///////////////////////////////////////////////////*/
 
 .mainp {
   background-image: url("../img/Grafitty_bg.png");
@@ -321,7 +322,7 @@ span {
   width: 50%;
 }
 
-/* NOSOTROS */
+/* NOSOTROS ///////////////////////////////////////////////////*/
 
 
 .nosotrosimg {
@@ -350,7 +351,7 @@ span {
   border-radius: 30px;
 }
 
-/* DOCUMENTACION*/
+/* DOCUMENTACION ///////////////////////////////////////////////////*/
 
 .grid-container {
   display: grid;
@@ -393,7 +394,7 @@ span {
   opacity: 1;
 }
 
-/* SEMESTRES */
+/* SEMESTRES ///////////////////////////////////////////////////*/
 
 .semestreh2 {
   background-color: #348B83;
@@ -405,7 +406,7 @@ span {
 .semestreh2 h2 {
   color: #ffffff;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 30px;
   padding: 15px;
@@ -424,10 +425,11 @@ span {
   right: 20px;
   transform: translateY(10%);
   padding: 5px;
+  opacity: 0.8;
 }
 
 .fixed-imageR:hover {
-  opacity: 0.5;
+  opacity: 0.4;
   transition: 0.2s;
 }
 
@@ -436,12 +438,15 @@ span {
   left: 20px;
   transform: translateY(10%);
   padding: 5px;
+  opacity: 0.8;
 }
 
 .fixed-imageL:hover {
-  opacity: 0.5;
+  opacity: 0.4;
   transition: 0.2s;
 }
+
+/* SEMESTRE 1 ///////////////////////////////////////////////////*/
 
 .mainS {
   background-color: #1a1919;
@@ -456,7 +461,7 @@ span {
 .contS {
   background-color: #1a1919;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 2fr 1fr;
   border-bottom: solid white 1px;
 }
 
@@ -465,10 +470,12 @@ span {
   display: flex;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .gridS img {
   padding: 10px;
+  width: 100%;
 }
 
 .cont2S {
@@ -485,26 +492,49 @@ span {
   padding-bottom: 20px;
 }
 
-
 .ContArchivos {
   padding: 15px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #FFF6EB;
 }
 
 .ContArchivos h2 {
   font-size: 25px;
   color: #000000;
+  padding: 10px;
+}
+
+.bgdoc {
+  width: 90%;
+  height: 80%;
+  background-color: #1a1919fb;
+  border-radius: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.documento {
   padding: 20px;
 }
 
-/* SEMESTRE 1 */
+.documento img {
+  width: 40px; 
+  height: auto;
+  vertical-align: middle;
+}
 
-
-
-
-
+.documento span {
+  margin-left: 5px; 
+  font-size: 18px; 
+  vertical-align: middle; 
+  color: #ffffff;
+}
 
 /* SEMESTRE 2 */
+
+
+
 /* SEMESTRE 3 */
