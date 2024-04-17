@@ -535,6 +535,44 @@ span {
 
 /* SEMESTRE 2 */
 
+.mainS2 {
+  background-color: #1a1919;
+}
 
+.mainS2 h1 {
+  font-size: 20px;
+  color: #348B83;
+  padding: 20px;
+  text-align: center;
+  border-bottom: #348B83 solid 2px;
+}
+
+.mainS2 h2 {
+  font-size: 20px;
+  color: #348B83;
+  padding: 20px;
+}
+
+.contS2 {
+  background-color: #1a1919;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: solid white 1px;
+}
+
+.gridS2{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.gridS2 img {
+  padding: 10px;
+  width:60%;
+  vertical-align: middle;
+}
 
 /* SEMESTRE 3 */
